@@ -47,5 +47,8 @@
   "bugs": {
     "url": "https://github.com/infinitythegame/frontend/issues"
   },
-  "homepage": "https://github.com/infinitythegame/frontend"
+  "homepage": "https://github.com/infinitythegame/frontend",
+  "keywords": [
+    "wargaming"
+  ]
 }
