@@ -1,8 +1,8 @@
 {
-  "name":         "infinitythegame",
-  "version":      "0.0.0",
-  "description":  "A ballistic calculator and army builder for Infinity",
-  "main":         "src/index.js",
+  "name": "infinitythegame",
+  "version": "0.0.0",
+  "description": "A ballistic calculator and army builder for Infinity",
+  "main": "app/index.js",
   "moduleType": [
     "amd"
   ],
@@ -14,30 +14,31 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "web/js/lib",
+    "app/public/js/lib",
     "test",
     "spec"
   ],
   "dependencies": {
-    "angular-cookies":    "~1.2.18",
-    "angular-resource":   "~1.2.18",
-    "angular-route":      "~1.2.18",
-    "angular-sanitize":   "~1.2.18",
-    "angular":            "~1.2.18",
-    "es5-shim":           "~3.4.0",
-    "jquery":             "~2.1.1",
-    "json3":              "~3.3.1",
-    "modernizr":          "~2.8.2",
-    "requirejs":          "~2.1.14",
-    "sass-bootstrap":     "~3.0.2",
-    "underscore":         "~1.6.0"
+    "angular-cookies": "~1.2.18",
+    "angular-resource": "~1.2.18",
+    "angular-route": "~1.2.18",
+    "angular-sanitize": "~1.2.18",
+    "angular": "~1.2.18",
+    "es5-shim": "~3.4.0",
+    "jquery": "~2.1.1",
+    "json3": "~3.3.1",
+    "modernizr": "~2.8.2",
+    "requirejs": "~2.1.14",
+    "sass-bootstrap": "~3.0.2",
+    "underscore": "~1.6.0"
   },
   "devDependencies": {
-    "angular-mocks":      "1.2.16",
-    "angular-scenario":   "1.2.16"
+    "angular-mocks": "1.2.16",
+    "angular-scenario": "1.2.16"
   },
-  "appPath": "web",
+  "appPath": "app/public",
   "resolutions": {
     "angular": "1.2.18"
-  }
+  },
+  "homepage": "https://github.com/infinitythegame/frontend"
 }
