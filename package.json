@@ -41,6 +41,7 @@
     "matchdep": "~0.3.0",
     "mocha": "latest",
     "mocha-mongoose": "~1.0.1",
+    "phantomcss": "^0.7.1",
     "phantomjs": "^1.9.7-10",
     "protractor": "~0.24.2",
     "sinon": "latest",
