@@ -1,4 +1,5 @@
 node_modules
-web/js/lib
+app/public/js/lib/
+app/views/cache
 .tmp
 .sass-cache

@@ -1,12 +1,23 @@
 'use strict';
 
-var fast     = require('fast.js')
-    compass  = require('compass'),
-    Promise  = require("bluebird"),
+var fast     = require('fast.js'),
+    path     = require('path'),
+    Promise  = require('bluebird'),
     express  = require('express'),
-    sockjs   = require('sockjs')
+    sockjs   = require('sockjs'),
     lusca    = require('lusca'),
-    app      = express();
+    rekuire  = require('rekuire');
 
+var app = module.exports = express();
 
-require('./view.js');
+rekuire('view.js')(app, path);
+
+app.get('/', function (req, res){
+  res.render('index', {
+    title: 'Main page'
+  });
+});
+
+app.get('/hello.txt', function(req, res){
+  res.send('Hello World');
+});

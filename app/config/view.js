@@ -1,13 +1,17 @@
 'use strict';
-var cons     = require('consolidate', name = 'hogan');
 
-app.engine('html', cons[name]);
+module.exports = function(app, path) {
+  var hogan = require('hogan-express');
 
-// set .html as the default extension
-app.set('view engine', 'html');
-app.set('views', __dirname + '../views');
+  var views_dir = '/app/views';
 
-cons[name]('views/page.html', { user: 'tobi' }, function(err, html){
-  if (err) throw err;
-  console.log(html);
-});
+  var mustlayout = require('mustlayout');
+  mustlayout.engine(app, {
+      engine: hogan,
+      ext: '.html',
+      views: views_dir,
+      partials: path.join(views_dir, '/partials'), // optional, default to '/views'
+      layouts: path.join(views_dir, '/layouts'), // optional, default to '/views'
+      cache: path.join(views_dir, '/cache') // optional, default to '/views/cache'
+  });
+}
