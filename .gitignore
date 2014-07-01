@@ -1,5 +1,5 @@
 node_modules
-app/public/js/lib/
+app/public/bower
 app/views/cache
 .tmp
 .sass-cache

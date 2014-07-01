@@ -14,10 +14,9 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "app/public/js/lib",
+    "app/public/bower",
     "test",
     "spec",
-    "bower_components",
     "tests"
   ],
   "dependencies": {
@@ -30,8 +29,5 @@
     "angular-scenario": "1.2.16"
   },
   "appPath": "app/public",
-  "resolutions": {
-    "angular": "1.2.18"
-  },
   "homepage": "https://github.com/infinitythegame/frontend"
 }
