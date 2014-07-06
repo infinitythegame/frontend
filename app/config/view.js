@@ -8,7 +8,7 @@ module.exports = function(app, path) {
   var mustlayout = require('mustlayout');
   mustlayout.engine(app, {
       engine: hogan,
-      ext: '.html',
+      ext: '.mustache',
       views: views_dir,
       partials: path.join(views_dir, '/partials'), // optional, default to '/views'
       layouts: path.join(views_dir, '/layouts'), // optional, default to '/views'
