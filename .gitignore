@@ -3,4 +3,4 @@ web/src/bower_components
 app/views/cache
 .tmp
 .sass-cache
-web/public/*
+web/dist/*
