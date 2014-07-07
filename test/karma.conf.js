@@ -16,14 +16,14 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'app/public/js/lib/angular/angular.js',
-      'app/public/js/lib/angular-route/angular-route.js',
-      'app/public/js/lib/angular-resource/angular-resource.js',
-      'app/public/js/lib/angular-animate/angular-animate.js',
-      'app/public/js/lib/angular-bootstrap/ui-bootstrap.js',
-      'app/public/js/lib/angular-bootstrap/ui-bootstrap-tpls.js',
-      'app/public/js/lib/angular-mocks/angular-mocks.js',
-      'app/public/js/app/**/*.js',
+      'web/public/js/lib/angular/angular.js',
+      'web/public/js/lib/angular-route/angular-route.js',
+      'web/public/js/lib/angular-resource/angular-resource.js',
+      'web/public/js/lib/angular-animate/angular-animate.js',
+      'web/public/js/lib/angular-bootstrap/ui-bootstrap.js',
+      'web/public/js/lib/angular-bootstrap/ui-bootstrap-tpls.js',
+      'web/public/js/lib/angular-mocks/angular-mocks.js',
+      'web/public/js/app/**/*.js',
       'spec/**/*Spec.js'
     ],
 
