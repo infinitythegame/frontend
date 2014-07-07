@@ -2,15 +2,15 @@ require 'compass/import-once/activate'
 # Require any additional compass plugins here.
 
 # Require any additional compass plugins here.
-add_import_path "bower_components/bootstrap-sass-official/assets/stylesheets"
+add_import_path "web/src/bower_components/bootstrap-sass-official/assets/stylesheets"
 
 # Set this to the root of your project when deployed:
 http_path = "/"
-css_dir = "public/css"
-sass_dir = "public/sass"
-images_dir = "public/img"
-javascripts_dir = "public/js/lib"
-fonts_dir = "public/fonts"
+css_dir = "web/public/css"
+sass_dir = "web/src/scss"
+images_dir = "web/public/img"
+javascripts_dir = "web/public/js/lib"
+fonts_dir = "web/public/fonts"
 
 output_style = :compressed
 

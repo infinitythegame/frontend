@@ -12,7 +12,7 @@ var app = module.exports = express();
 
 rekuire('view.js')(app, path);
 
-app.use(express.static(__dirname + '/../public'));
+app.use(express.static(__dirname + '/../web/public'));
 
 app.get('/', function (req, res){
   res.render('index', {

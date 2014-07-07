@@ -1,1 +1,0 @@
-"use strict";module.exports=function(e,a){var i=require("hogan-express"),s="/app/views",t=require("mustlayout");t.engine(e,{engine:i,ext:".mustache",views:s,partials:a.join(s,"/partials"),layouts:a.join(s,"/layouts"),cache:a.join(s,"/cache")})};
