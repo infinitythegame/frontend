@@ -1,0 +1,17 @@
+{{!<default}}
+{{:header}}
+<h1>My Title</h1>
+
+{{/header}}
+
+{{:body}}
+<ul id="factions">
+  {{#factions}}
+  <li class="{{id}}"><a href="{{link}}" title="{{name}}">{{name}}</a></li>
+  {{/factions}}
+</ul>
+{{/body}}
+{{:footer}}
+{{>footer}}
+{{>ga}}
+{{/footer}}

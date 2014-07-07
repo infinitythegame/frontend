@@ -20,6 +20,29 @@ app.get('/', function (req, res){
   });
 });
 
+app.get('/factions', function (req, res){
+  res.render('factions', {
+    title: 'Main page',
+    factions: [
+      {
+        name: "Ariadna",
+        link: "/factions/ariadna",
+        id: "ariadna"
+      },
+      {
+        name: "Aleph",
+        link: "/factions/aleph",
+        id: "aleph"
+      },
+      {
+        name: "Haqqislam",
+        link: "/factions/haqqislam",
+        id: "haqqislam"
+      }
+    ]
+  });
+});
+
 app.get('/hello.txt', function(req, res){
   res.send('Hello World');
 });
