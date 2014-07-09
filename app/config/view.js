@@ -1,17 +1,18 @@
-'use strict';
+(function() {
+  'use strict';
+  module.exports = function(app, path) {
+    var hogan = require('hogan-express');
 
-module.exports = function(app, path) {
-  var hogan = require('hogan-express');
+    var viewsDir = '/app/views';
 
-  var views_dir = '/app/views';
-
-  var mustlayout = require('mustlayout');
-  mustlayout.engine(app, {
-      engine: hogan,
-      ext: '.mustache',
-      views: views_dir,
-      partials: path.join(views_dir, '/partials'), // optional, default to '/views'
-      layouts: path.join(views_dir, '/layouts'), // optional, default to '/views'
-      cache: path.join(views_dir, '/cache') // optional, default to '/views/cache'
-  });
-}
+    var mustlayout = require('mustlayout');
+    mustlayout.engine(app, {
+        engine: hogan,
+        ext: '.mustache',
+        views: viewsDir,
+        partials: path.join(viewsDir, '/partials'), // optional, default to '/views'
+        layouts: path.join(viewsDir, '/layouts'), // optional, default to '/views'
+        cache:'/app/cache/views' // optional, default to '/views/cache'
+    });
+  }
+})();
