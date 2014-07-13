@@ -1,0 +1,22 @@
+ HASSASSIN BAHRAM
+──────────────────────────────────────────────────
+
+ GROUP 1 (Regular: 10/Irregular: 0):
+
+  ASAWIRA Spitfire, Nanopulser / Pistol, Shock CCW. (2 | 59)
+ AL-DJABEL Rifle + Light Shotgun, Smoke Grenades / Pistol, Viral CCW. (41)
+ FARZAN (Chain of Command) Boarding Shotgun, Contender / Pistol, Knife. (32)
+ FIDAY Rifle + Light Shotgun, Antipersonnel Mines, Smoke Grenades / Pistol, AP CCW. (33)
+ FIDAY Boarding Shotgun, Smoke Grenades / Pistol, EXP CCW. (34)
+ GHULAM Rifle + Light Shotgun / Pistol, Knife. (13)
+ GHULAM Hacker (Hacking Device) Rifle + Light Shotgun / Pistol, Knife. (0.5 | 25)
+ GHULAM Lieutenant Rifle + Light Shotgun / Pistol, Knife. (13)
+ HUSAM Rifle + Light Shotgun / Pistol, Knife. (17 | 0XP)
+ LASIQ Viral Sniper Rifle / Pistol, Knife. (1.5 | 29)
+
+ GROUP 2 (Regular: 0/Irregular: 1):
+
+ WARCOR Flash Pulse / Stun Pistol, Knife. (3)
+
+ 4 SWC | 299 Points
+ARMY CODE: eNplzEEKwDAIBMDP1D3rRpr4sZzy+KqnQBFGcFWnCCPEZWLAjiks22gXvK2APSFmG6VWABAKfa7Cz/PmVj7PM1C2f6kQF/w=

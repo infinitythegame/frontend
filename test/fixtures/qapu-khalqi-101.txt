@@ -1,0 +1,25 @@
+ QAPU KHALQI
+──────────────────────────────────────────────────
+
+ GROUP 1 (Regular: 4/Irregular: 0):
+
+ GHULAM Rifle + Light Shotgun / Pistol, Knife. (13)
+ GHULAM Sniper Rifle / Pistol, Knife. (0.5 | 18)
+ GHULAM Doctor Rifle + Light Shotgun / Pistol, Knife. (17)
+ KAMEEL (EVO Repeater) Electric Pulse. (0.5 | 13)
+
+ GROUP 3 (Regular: 10/Irregular: 0):
+
+ GHULAM Hacker (Hacking Device) Rifle + Light Shotgun / Pistol, Knife. (0.5 | 25)
+ GHULAM Lieutenant Rifle + Light Shotgun / Pistol, Knife. (13)
+ HAFZA Rifle + Light Shotgun / Pistol, Knife. (17)
+ HUSAM (AutoMedikit) Rifle + Light Shotgun / Pistol, Knife. (17 | 6XP)
+ KAPLAN Spitfire / Pistol, Knife. (1 | 29)
+ KAPLAN Engineer Combi Rifle, Adhesive Launcher, D-Charges / Pistol, Knife. (27)
+ KAPLAN Engineer Combi Rifle, Blitzen / Pistol, Knife. (28)
+ ODALISQUE Submachine gun, Contender, Nanopulser / Pistol, Knife. (25)
+ ODALISQUE Spitfire, Nanopulser / Pistol, Knife. (1 | 31)
+ ODALISQUE (Fireteam: Haris L1) Rifle + Light Shotgun, Nanopulser / Pistol, Knife. (1 | 26)
+
+ 4.5 SWC | 299 Points
+ARMY CODE: eNpNjEsOgEAIQy8jXRqHzygXczWHt+BC0+Q1UKibiGaK7yED1BqI5lVMaA8njEzSeWRLA0YxnTi2nxDN4+PSAa+XKm6bZe+uWkgGcvsD5TMc+w==
