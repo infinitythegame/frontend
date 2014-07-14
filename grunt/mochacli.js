@@ -6,13 +6,13 @@ module.exports = function mochacli(grunt) {
       bail: true
     },
     all:      {
-      src: ['spec/spechelper.js', 'spec/**/*.js']
+      src: ['test/spechelper.js', 'spec/**/*.js']
     },
     server:   {
-      src: ['spec/spechelper.js', 'spec/src**/*.js']
+      src: ['test/spechelper.js', 'spec/src/**/*.js']
     },
     client: {
-      ['spec/spechelper.js', 'spec/web/**/*.js']
-    } 
-  }
+      src: ['test/spechelper.js', 'spec/web/**/*.js']
+    }
+  };
 };

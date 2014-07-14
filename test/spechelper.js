@@ -7,5 +7,4 @@
   global.rekuire  = require('rekuire');
   global.sinon    = require('sinon');
   chai.use(sinonChai);
-
 })();
