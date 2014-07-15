@@ -1,9 +1,10 @@
-module.exports = function concurrent(grunt) {
-  'use strict';
+module.exports = function testTasks(grunt, options) {
   return {
-    'test': {
-      'all':        ['newer:mochacli:all'],
-      'server':     ['newer:mochacli:server']
+    concurrent: ['notify:test', 'test:client', 'test:server'],
+    notify : {
+      options : {
+        message: 'Testing full site'
+      }
     }
   };
 };

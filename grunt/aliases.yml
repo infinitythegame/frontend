@@ -1,5 +1,35 @@
 ---
+'default':
+  description: 'Default action for grunt'
+  tasks:
+    - 'test'
+    - 'notify'
+    - 'watch'
+
+'deploy':
+  description: 'Used for deploying the site'
+  tasks:
+    - 'concurrent:deploy'
+
 'test':
-- 'concurrent:test'
-'test-server':
-- 'concurrent:test:server'
+  description: 'Test the app'
+  tasks:
+    - 'concurrent:test'
+
+'test:client':
+  description: 'Test the client-side app'
+  tasks:
+    - 'minify'
+    - 'concurrent:client'
+
+'test:server':
+  description: 'Test the server-side app'
+  tasks:
+    - 'concurrent:server'
+
+minify:
+  description: 'Minify assets'
+  tasks:
+    - 'verbosity:minify'
+    - 'concurrent:minify'
+    - 'notify:minify'
