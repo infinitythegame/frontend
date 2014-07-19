@@ -10,6 +10,7 @@
     "exorcist": "^0.1.6",
     "express": "^4.4.3",
     "fast.js": "0.0.2",
+    "gasket": "^1.1.4",
     "glob": "latest",
     "hogan-express": "^0.5.2",
     "lusca": "^1.0.1",
@@ -97,7 +98,9 @@
     "wargaming"
   ],
   "directories": {
-    "test": "test"
+    "test": "test",
+    "spec": "test/spec",
+    "features": "test/features"
   },
   "scripts": {
     "test": "grunt test",

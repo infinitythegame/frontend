@@ -4,3 +4,4 @@ app/web/src/bower_components
 app/cache
 .tmp
 .sass-cache
+.cache

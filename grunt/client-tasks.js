@@ -6,7 +6,7 @@ module.exports = function testClient(grunt, options) {
         reporter: 'spec',
         bail: true
       },
-      src: ['test/spechelper.js', 'spec/web/**/*.js']
+      src: ['test/spechelper.js', 'test/spec/web/**/*.js']
     },
     jshint : ['app/web/src/js/app/**/*.js']
   };

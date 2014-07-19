@@ -6,5 +6,5 @@ Feature: Faction Selection
 
   Scenario: Haqqislam army list
     Given I am have not yet selected a faction
-    When I select Haqqislam
+    When I select 'Haqqislam'
     Then I should see a list of Haqqislam units

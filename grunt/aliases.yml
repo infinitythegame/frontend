@@ -16,6 +16,11 @@
   tasks:
     - 'concurrent:test'
 
+'test:bdd':
+  description: 'Run BDD tests'
+  tasks:
+    - 'concurrent:bdd'
+
 'test:client':
   description: 'Test the client-side app'
   tasks:
@@ -27,9 +32,13 @@
   tasks:
     - 'concurrent:server'
 
-minify:
+'minify':
   description: 'Minify assets'
   tasks:
     - 'verbosity:minify'
     - 'concurrent:minify'
     - 'notify:minify'
+
+'cucumber':
+  tasks:
+    - 'cucumberjs'

@@ -10,8 +10,9 @@ module.exports = function Grunt(grunt, options) {
       test: false
     },
     jitGrunt: {
-      //here you can pass options to jit-grunt (or just jitGrunt: true)
-      mochacli: 'grunt-mocha-cli'
+      // here you can pass options to jit-grunt (or just jitGrunt: true)
+      mochacli: 'grunt-mocha-cli',
+      cucumberjs: 'grunt-cucumber'
     },
     postProcess: function(config) {} //can post process config object before it gets passed to grunt
   });
