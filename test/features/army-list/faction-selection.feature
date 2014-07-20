@@ -5,6 +5,6 @@ Feature: Faction Selection
   I would like to see a list of units for my faction
 
   Scenario: Haqqislam army list
-    Given I am have not yet selected a faction
+    Given I have not yet selected a faction
     When I select 'Haqqislam'
     Then I should see a list of Haqqislam units

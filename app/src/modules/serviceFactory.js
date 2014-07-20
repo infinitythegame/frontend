@@ -1,3 +1,3 @@
-module.exports = function ServiceFactory(somethingToAsk) {
+module.exports = function ServiceFactory(serviceName) {
   'use strict';
 };

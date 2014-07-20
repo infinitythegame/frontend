@@ -3,7 +3,7 @@ module.exports = function ArmyListSteps() {
   var rekuire = require('rekuire');
   this.World = rekuire('../support/world/server.js').World;
 
-  this.Given(/^I am have not yet selected a faction$/, function (callback) {
+  this.Given(/^I have not yet selected a faction$/, function (callback) {
     // Write code here that turns the phrase above into concrete actions
     callback.pending();
   });
@@ -11,7 +11,7 @@ module.exports = function ArmyListSteps() {
   this.When(/^I select 'Haqqislam'$/, function (callback) {
     // Write code here that turns the phrase above into concrete actions
     target = '/factions/haqqislam';
-    
+
     this.visit(target, callback);
     callback.pending();
   });
